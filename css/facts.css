@@ -1,0 +1,18 @@
+.facts {
+  padding: 50px;
+  position: relative;
+}
+
+.facts__title {
+  color: red;
+}
+
+.facts__list {
+  list-style-type: lower-roman;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.facts__item {
+  color: white;
+}

@@ -1,0 +1,39 @@
+.chracteristics {
+}
+
+.chracteristics table {
+  margin: 0 auto;
+}
+
+.chracteristics{
+  background: linear-gradient(90deg,red,aquamarine);
+  }
+
+.chracteristics table,
+.chracteristics td,
+.chracteristics th {
+  border: 1px dashed red;
+  border-collapse: collapse;
+}
+
+.chracteristics td,
+.chracteristics th {
+  padding: 5px 20px;
+  color: white;
+}
+
+.chracteristics caption {
+  color: white;
+}
+
+.chracteristics caption:hover {
+  background-color: rgba(255, 0, 0, 0.614);
+}
+
+.chracteristics td:hover {
+  background-color: aquamarine;
+}
+
+.chracteristics th:hover {
+  background-color: rgb(0, 255, 34);
+}

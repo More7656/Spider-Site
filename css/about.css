@@ -1,0 +1,22 @@
+.about {
+  border: 5px dashed purple;
+  padding: 25px;
+}
+
+.about__img {
+  height: 300px;
+  float: right;
+  margin-left: 70px;
+}
+
+.about__text {
+  color: white;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.about__text:hover {
+  color: red;
+}

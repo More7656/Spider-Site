@@ -1,0 +1,41 @@
+
+.intro {
+  min-height: 100vh;
+  background-image: url("../img/aub-art-wallpaper-city-min.jpg");
+  padding: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: clip;
+}
+
+.intro__title {
+  transition: 1s;
+  width: 500px;
+  background-color: rgba(255, 0, 0, 0.358);
+  margin: 0 auto;
+
+  padding: 40px;
+  border: 3px dashed rgb(255, 255, 255);
+  border-bottom: 5px solid blue;
+  margin-bottom: 70px;
+}
+
+.intro__title:hover {
+  color: blue;
+}
+
+.intro__img {
+  height: 300px;
+  position: absolute;
+  top: 350px;
+  right: -10px;
+}
+
+
+@media (max-width: 768px) {
+  .intro__title{
+    font-size: 32px;
+  }
+}
