@@ -5,15 +5,19 @@
   margin: 0 auto;
 }
 
-.chracteristics{
-  background: linear-gradient(90deg,red,aquamarine);
-  }
+.chracteristics {
+  background: linear-gradient(90deg, red, aquamarine);
+}
 
 .chracteristics table,
 .chracteristics td,
 .chracteristics th {
   border: 1px dashed red;
   border-collapse: collapse;
+}
+
+.chracteristics{
+  padding: 40px;
 }
 
 .chracteristics td,
