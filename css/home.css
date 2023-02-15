@@ -2,6 +2,7 @@
 .intro {
   min-height: 100vh;
   background-image: url("../img/aub-art-wallpaper-city-min.jpg");
+  background-attachment: fixed;
   padding: 25px;
   position: relative;
   display: flex;
