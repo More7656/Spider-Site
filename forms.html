@@ -5,7 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    label {
+      /* display: block; */
+    }
+    div {
+      margin-bottom: 20px;
+    }
+    input,textarea {
+      outline: none;
+      border: 1px solid yellow;
+    }
+    textarea {
+      resize: none;
+    }
+  </style>
 </head>
+
 <body>
   <form action="">
     <div>
@@ -14,11 +30,22 @@
     </div>
     <div>
       <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required placeholder="Enter email">
+      <input type="email" name="email" id="email" placeholder="Enter email">
     </div>
     <div>
       <label for="password">Password:</label>
       <input type="password" name="password" id="password" placeholder="Enter password">
+    </div>
+    <div>
+      <label for="">gender</label>
+      <input type="radio" name="gender" id="male" value="male" checked>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="" value="female">
+      <input type="radio" name="gender" id="" value="other">
+    </div>
+    <div>
+      <label for="agree">Do you agree</label>
+      <input type="checkbox" name="agree" id="agree" checked>
     </div>
     <div>
       <label for="salutation">Salutation:</label>
@@ -30,6 +57,10 @@
         <option>Dr.</option>
         <option>Prof.</option>
       </select>
+    </div>
+    <div>
+      <label for="addition">Describe your opinion</label>
+      <textarea name="addition" id="addition" cols="30" rows="10"></textarea>
     </div>
     
 
